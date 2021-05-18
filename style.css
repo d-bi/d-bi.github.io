@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Oxygen', sans-serif;
+}
+.nav > a {
+	font-size: 1.2em;
+	text-decoration: none;
+	text-align: center;
+	color: #EEEEEE;
+}
+.nav > a.curr_nav {
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.nav > a:hover {
+	font-weight: bold;
+}
+.nav > a:visited {
+	color: #EEEEEE;
+}
+div.navcont {
+	margin: 0;
+	padding: 0.1em 0.1em 0.1em 0.1em;
+	background-color: #686868;
+	color: #FFFFFF;
+}
+ul.nav {
+	list-style-type: none;
+	text-align: center;
+}
+li.nav {
+	display: inline;
+	padding: 0 10%;
+}
+div.card {
+	margin: 0;
+	padding: 0.5em 2em 0.5em 2em;
+	background-color: #E6E6E6;
+}
+div.subcard {
+	padding: 0.5em 1em 0.5em 1em;
+	margin: 0.5em 0em;
+	background-color: #D5D5D5; 
+}
+div.indent {
+	padding: 0em 2em;
+}
+ul.weeks {
+	list-style-type: none;
+	padding: 0;
+}
+li.sg-week {
+	margin: 1em 0em;
+}
+.lralign span {
+	float: right;
+}
+.cvitem {
+	margin: 0;
+	padding: 0;
+}
+.cvlist {
+	margin: 0 auto;
+}
+.cvtitle {
+	margin: 0.5em 0;
+}
+.expand {
+	border: none;
+	cursor: pointer;
+	font-family: inherit;
+	font-size: inherit;
+	padding: inherit;
+	background-color: transparent;
+}
+.expand:hover {
+	font-weight: bold;
+}
+.expand:after {
+	content: "[+]";
+}
+.active:after {
+	content: "[-]";
+}
+.expandcontent {
+	max-height: 0;
+  	overflow: hidden;
+	transition: max-height 0.5s ease-out;
+}
+a.texta {
+	color: #373737;
+}
+a.texta:visited {
+	color: #373737;
+}
+table {
+	width: 80%;
+}
+th, td {
+	padding: 0 2% 0.5em 0;
+}
