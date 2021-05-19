@@ -4,6 +4,14 @@ body {
 	margin: 0;
 	font-family: 'Oxygen', sans-serif;
 }
+footer {
+	background-color: #373737;
+	color: #FFFFFF;
+	font-family: 'Oxygen', sans-serif;
+	padding: 0.5em 2em;
+	margin: 0;
+	text-align: right;
+}
 .nav > a {
 	font-size: 1.2em;
 	text-decoration: none;
@@ -58,12 +66,21 @@ li.sg-week {
 .lralign span {
 	float: right;
 }
+.light {
+	font-weight: normal;
+	padding: 0;
+	margin: 0;
+}
 .cvitem {
 	margin: 0;
 	padding: 0;
 }
 .cvlist {
 	margin: 0 auto;
+}
+.cvlist > li {
+	width: 70%;
+	padding: 0 0 0.5em 0;
 }
 .cvtitle {
 	margin: 0.5em 0;
@@ -89,6 +106,7 @@ li.sg-week {
 	max-height: 0;
   	overflow: hidden;
 	transition: max-height 0.5s ease-out;
+	margin: 0;
 }
 a.texta {
 	color: #373737;
@@ -97,8 +115,11 @@ a.texta:visited {
 	color: #373737;
 }
 table {
-	width: 80%;
+	width: 100%;
 }
 th, td {
 	padding: 0 2% 0.5em 0;
+}
+#courses_taken {
+	width: 100%
 }
