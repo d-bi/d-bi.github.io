@@ -3,6 +3,11 @@ body {
 	padding: 0;
 	margin: 0;
 	font-family: 'Oxygen', sans-serif;
+	font-size: 100%;
+    text-size-adjust: 100%; 
+    -ms-text-size-adjust: 100%; 
+    -moz-text-size-adjust: 100%; 
+    -webkit-text-size-adjust: 100%;
 }
 footer {
 	background-color: #373737;
@@ -63,8 +68,9 @@ ul.weeks {
 li.sg-week {
 	margin: 1em 0em;
 }
-.lralign span {
+.lralign > span {
 	float: right;
+	font-size: inherit;
 }
 .light {
 	font-weight: normal;
@@ -76,7 +82,7 @@ li.sg-week {
 	padding: 0;
 }
 .cvlist {
-	margin: 0 auto;
+	margin: 0 0 0.5em 0;
 }
 .cvlist > li {
 	width: 70%;
