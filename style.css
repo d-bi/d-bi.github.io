@@ -4,6 +4,7 @@ body {
 	margin: 0;
 	font-family: 'Oxygen', sans-serif;
 	font-size: 100%;
+	text-align: justify;
     text-size-adjust: 100%; 
     -ms-text-size-adjust: 100%; 
     -moz-text-size-adjust: 100%; 
@@ -96,17 +97,16 @@ li.sg-week {
 	cursor: pointer;
 	font-family: inherit;
 	font-size: inherit;
-	padding: inherit;
 	background-color: transparent;
 }
 .expand:hover {
 	font-weight: bold;
 }
 .expand:after {
-	content: "[+]";
+	content: " [+]";
 }
 .active:after {
-	content: "[-]";
+	content: " [-]";
 }
 .expandcontent {
 	max-height: 0;
@@ -120,12 +120,41 @@ a.texta {
 a.texta:visited {
 	color: #373737;
 }
-table {
+#courses_taken table {
 	width: 100%;
 }
-th, td {
+#courses_taken th,
+#courses_taken td {
 	padding: 0 2% 0.5em 0;
 }
 #courses_taken {
-	width: 100%
+	width: 100%;
+}
+.photographs {
+	table-layout: fixed;
+	width: 100%;
+}
+td.pic {
+	width: 60%;
+	padding-bottom: 2%;
+}
+.photographs td img{
+	max-width: 100%;
+	margin: auto;
+	display: block;
+}
+.photographs td > p {
+	padding: 0 0 0 10%;
+}
+.emph {
+	font-weight: bold;
+}
+.red {
+	color: #BB0000;
+}
+.underline {
+	text-decoration: underline;
+}
+.left-70 {
+	padding-right: 30%;
 }
