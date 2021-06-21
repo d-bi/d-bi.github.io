@@ -112,7 +112,7 @@ li.sg-week {
 	max-height: 0;
   	overflow: hidden;
 	transition: max-height 0.5s ease-out;
-	margin: 0;
+	margin: 0.5em 0;
 }
 a.texta {
 	color: #373737;
@@ -157,4 +157,20 @@ td.pic {
 }
 .left-70 {
 	padding-right: 30%;
+}
+.borderedtable,
+.borderedtable td {
+	border-bottom: 0.1em solid #7E7E7E;
+	border-collapse: collapse;
+	padding: 0.5em 1em;
+	text-align: center;
+}
+.borderedtable th {
+	border: 0.1em solid #7E7E7E;
+	background-color: #7E7E7E;
+	color: #EAEAEA;
+	border-collapse: collapse;
+	padding: 0.5em 1em;
+	font-weight: normal;
+	text-align: center;
 }
