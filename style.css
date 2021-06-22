@@ -158,8 +158,12 @@ td.pic {
 .left-70 {
 	padding-right: 30%;
 }
-.borderedtable,
-.borderedtable td {
+.borderedtable {
+	border-bottom: 0.1em solid #7E7E7E;
+	border-collapse: collapse;
+}
+.borderedtable td.links  {
+	width: 20%;
 	border-bottom: 0.1em solid #7E7E7E;
 	border-collapse: collapse;
 	padding: 0.5em 1em;
