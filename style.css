@@ -120,6 +120,9 @@ a.texta {
 a.texta:visited {
 	color: #373737;
 }
+a.b {
+	font-weight: bold;
+}
 #courses_taken table {
 	width: 100%;
 	table-layout: fixed;
