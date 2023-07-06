@@ -15,13 +15,13 @@ for (i = 0; i < expands.length; i++) {
 }
 
 function toggle_expandcontent() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.maxHeight) {
-      content.style.maxHeight = null;
-    } else {
-      content.style.maxHeight = content.scrollHeight + 100 + "px";
-    }
+  this.classList.toggle("active");
+  var content = this.nextElementSibling;
+  if (content.style.maxHeight) {
+    content.style.maxHeight = null;
+  } else {
+    content.style.maxHeight = content.scrollHeight + 100 + "px";
+  }
 }
 
 function evans_hover(e) {
@@ -30,3 +30,6 @@ function evans_hover(e) {
 function evans_nonhover(e) {
   e.setAttribute("src", "img/evans_fog")
 }
+
+const currentYear = new Date().getFullYear();
+document.getElementById("currentYear").textContent = currentYear;
