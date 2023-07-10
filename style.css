@@ -50,14 +50,16 @@ li.nav {
 	padding: 0 10%;
 }
 div.card {
-	margin: 0;
-	padding: 0.5em 2em 0.5em 2em;
+	margin: 1em 1em;
+	padding: 0.5em 1.5em 0.5em 1.5em;
 	background-color: #E6E6E6;
+	border-radius: 1em;
 }
 div.subcard {
 	padding: 0.5em 1em 0.5em 1em;
 	margin: 0.5em 0em;
-	background-color: #D5D5D5; 
+	background-color: #D5D5D5;
+	border-radius: 0.5em;
 }
 div.indent {
 	padding: 0em 2em;
